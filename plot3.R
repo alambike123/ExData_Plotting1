@@ -7,7 +7,6 @@
 #unzip(zipfile = "power_consumption.zip")
 
 library("dplyr")
-library("lubridate")
 
 
 power.txt <- read.csv("household_power_consumption.txt", sep = ";"
